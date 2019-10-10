@@ -6,15 +6,15 @@ import sorters.Sorter;
  * Hello world!
  *
  */
-public class App 
+public class Main
 {
     public static void main( String[] args )
     {
-        int[] array = {7,5,4,7,2,1};
+        int[] array = {9,5,4,7,2,1};
 
         Sorter sorter = new Sorter();
 
-        sorter.Sort(array);
+        sorter.sort(array);
         sorter.printSortedArray(array);
     }
 }

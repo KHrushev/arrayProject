@@ -3,7 +3,7 @@ package sorters;
 public class Sorter {
     private int[] array;
 
-    public void Sort(int[] arr){
+    public void sort(int[] arr){
         int i, temp;
         array = arr;
 
